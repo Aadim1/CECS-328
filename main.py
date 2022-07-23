@@ -15,6 +15,11 @@ sys.setrecursionlimit(1050)
 
 class Programming1:
 
+    def __init__(self):
+        self.showMergeSort()
+        self.showQuickSort()
+        self.showInsertionSort()
+
     @staticmethod
     def arrayMaker(n: int) -> list:
         temp = []
@@ -190,10 +195,7 @@ class Programming1:
 
 
 def main():
-    assignment = Programming1()
-    assignment.showMergeSort()
-    assignment.showQuickSort()
-    assignment.showInsertionSort()
+    Programming1()
 
 
 if __name__ == '__main__':
